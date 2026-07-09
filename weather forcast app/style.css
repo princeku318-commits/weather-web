@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #1a34a8, #62047a, #ff9a00,#22e6d8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .weather-app {
+    background: rgb(189, 224, 230);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(192, 7, 7,0.2 );
+    background-image: url(https://wallup.net/wp-content/uploads/2016/02/18/286966-nature-photography.jpg);
+    background-size: cover;
+    
+  }
+  
+  input {
+    padding: 10px;
+    width: 200px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 17px;
+    
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #edfefd;
+    font-size: 16px;
+  }
+  
+  .weather-result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #0c0000;
+  }
+  
+ 
